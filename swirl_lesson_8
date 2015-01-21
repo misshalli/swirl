@@ -1,0 +1,991 @@
+NOTE: THERE WAS A LOT OF TEXT SO THE RSTUDIO CONSOLE ONLY LET ME COPY THE PORTION BELOW!!
+
+[13] Bahamas                 
+ [14] Bahrain                 
+ [15] Bangladesh              
+ [16] Barbados                
+ [17] Belgium                 
+ [18] Belize                  
+ [19] Benin                   
+ [20] Bermuda                 
+ [21] Bhutan                  
+ [22] Bolivia                 
+ [23] Botswana                
+ [24] Brazil                  
+ [25] British-Virgin-Isles    
+ [26] Brunei                  
+ [27] Bulgaria                
+ [28] Burkina                 
+ [29] Burma                   
+ [30] Burundi                 
+ [31] Cameroon                
+ [32] Canada                  
+ [33] Cape-Verde-Islands      
+ [34] Cayman-Islands          
+ [35] Central-African-Republic
+ [36] Chad                    
+ [37] Chile                   
+ [38] China                   
+ [39] Colombia                
+ [40] Comorro-Islands         
+ [41] Congo                   
+ [42] Cook-Islands            
+ [43] Costa-Rica              
+ [44] Cuba                    
+ [45] Cyprus                  
+ [46] Czechoslovakia          
+ [47] Denmark                 
+ [48] Djibouti                
+ [49] Dominica                
+ [50] Dominican-Republic      
+ [51] Ecuador                 
+ [52] Egypt                   
+ [53] El-Salvador             
+ [54] Equatorial-Guinea       
+ [55] Ethiopia                
+ [56] Faeroes                 
+ [57] Falklands-Malvinas      
+ [58] Fiji                    
+ [59] Finland                 
+ [60] France                  
+ [61] French-Guiana           
+ [62] French-Polynesia        
+ [63] Gabon                   
+ [64] Gambia                  
+ [65] Germany-DDR             
+ [66] Germany-FRG             
+ [67] Ghana                   
+ [68] Gibraltar               
+ [69] Greece                  
+ [70] Greenland               
+ [71] Grenada                 
+ [72] Guam                    
+ [73] Guatemala               
+ [74] Guinea                  
+ [75] Guinea-Bissau           
+ [76] Guyana                  
+ [77] Haiti                   
+ [78] Honduras                
+ [79] Hong-Kong               
+ [80] Hungary                 
+ [81] Iceland                 
+ [82] India                   
+ [83] Indonesia               
+ [84] Iran                    
+ [85] Iraq                    
+ [86] Ireland                 
+ [87] Israel                  
+ [88] Italy                   
+ [89] Ivory-Coast             
+ [90] Jamaica                 
+ [91] Japan                   
+ [92] Jordan                  
+ [93] Kampuchea               
+ [94] Kenya                   
+ [95] Kiribati                
+ [96] Kuwait                  
+ [97] Laos                    
+ [98] Lebanon                 
+ [99] Lesotho                 
+[100] Liberia                 
+[101] Libya                   
+[102] Liechtenstein           
+[103] Luxembourg              
+[104] Malagasy                
+[105] Malawi                  
+[106] Malaysia                
+[107] Maldive-Islands         
+[108] Mali                    
+[109] Malta                   
+[110] Marianas                
+[111] Mauritania              
+[112] Mauritius               
+[113] Mexico                  
+[114] Micronesia              
+[115] Monaco                  
+[116] Mongolia                
+[117] Montserrat              
+[118] Morocco                 
+[119] Mozambique              
+[120] Nauru                   
+[121] Nepal                   
+[122] Netherlands             
+[123] Netherlands-Antilles    
+[124] New-Zealand             
+[125] Nicaragua               
+[126] Niger                   
+[127] Nigeria                 
+[128] Niue                    
+[129] North-Korea             
+[130] North-Yemen             
+[131] Norway                  
+[132] Oman                    
+[133] Pakistan                
+[134] Panama                  
+[135] Papua-New-Guinea        
+[136] Parguay                 
+[137] Peru                    
+[138] Philippines             
+[139] Poland                  
+[140] Portugal                
+[141] Puerto-Rico             
+[142] Qatar                   
+[143] Romania                 
+[144] Rwanda                  
+[145] San-Marino              
+[146] Sao-Tome                
+[147] Saudi-Arabia            
+[148] Senegal                 
+[149] Seychelles              
+[150] Sierra-Leone            
+[151] Singapore               
+[152] Soloman-Islands         
+[153] Somalia                 
+[154] South-Africa            
+[155] South-Korea             
+[156] South-Yemen             
+[157] Spain                   
+[158] Sri-Lanka               
+[159] St-Helena               
+[160] St-Kitts-Nevis          
+[161] St-Lucia                
+[162] St-Vincent              
+[163] Sudan                   
+[164] Surinam                 
+[165] Swaziland               
+[166] Sweden                  
+[167] Switzerland             
+[168] Syria                   
+[169] Taiwan                  
+[170] Tanzania                
+[171] Thailand                
+[172] Togo                    
+[173] Tonga                   
+[174] Trinidad-Tobago         
+[175] Tunisia                 
+[176] Turkey                  
+[177] Turks-Cocos-Islands     
+[178] Tuvalu                  
+[179] UAE                     
+[180] Uganda                  
+[181] UK                      
+[182] Uruguay                 
+[183] US-Virgin-Isles         
+[184] USA                     
+[185] USSR                    
+[186] Vanuatu                 
+[187] Vatican-City            
+[188] Venezuela               
+[189] Vietnam                 
+[190] Western-Samoa           
+[191] Yugoslavia              
+[192] Zaire                   
+[193] Zambia                  
+[194] Zimbabwe                
+194 Levels: Afghanistan Albania ... Zimbabwe
+
+$landmass
+[1] 5 3 4 6 1 2
+
+$zone
+[1] 1 3 2 4
+
+$area
+  [1]   648    29  2388     0  1247  2777
+  [7]  7690    84    19     1   143    31
+ [13]    23   113    47  1099   600  8512
+ [19]     6   111   274   678    28   474
+ [25]  9976     4   623  1284   757  9561
+ [31]  1139     2   342    51   115     9
+ [37]   128    43    22    49   284  1001
+ [43]    21  1222    12    18   337   547
+ [49]    91   268    10   108   249   239
+ [55]   132  2176   109   246    36   215
+ [61]   112    93   103  3268  1904  1648
+ [67]   435    70   301   323    11   372
+ [73]    98   181   583   236    30  1760
+ [79]     3   587   118   333  1240  1031
+ [85]  1973  1566   447   783   140    41
+ [91]  1267   925   121   195   324   212
+ [97]   804    76   463   407  1285   300
+[103]   313    92   237    26  2150   196
+[109]    72   637  1221    99   288   505
+[115]    66  2506    63    17   450   185
+[121]   945   514    57     5   164   781
+[127]   245   178  9363 22402    15   912
+[133]   256   905   753   391
+
+$population
+ [1]   16    3   20    0    7   28   15
+ [8]    8   90   10    1    6  119    9
+[15]   35    4   24    2   11 1008    5
+[22]   47   31   54   17   61   14  684
+[29]  157   39   57  118   13   77   12
+[36]   56   18   84   48   36   22   29
+[43]   38   49   45  231  274   60
+
+$language
+ [1] 10  6  8  1  2  4  3  5  7  9
+
+$religion
+[1] 2 6 1 0 5 3 4 7
+
+$bars
+[1] 0 2 3 1 5
+
+$stripes
+ [1]  3  0  2  1  5  9 11 14  4  6 13  7
+
+$colours
+[1] 5 3 2 8 6 4 7 1
+
+$red
+[1] 1 0
+
+$green
+[1] 1 0
+
+$blue
+[1] 0 1
+
+$gold
+[1] 1 0
+
+$white
+[1] 1 0
+
+$black
+[1] 1 0
+
+$orange
+[1] 0 1
+
+$mainhue
+[1] green  red    blue   gold   white 
+[6] orange black  brown 
+8 Levels: black blue brown gold ... white
+
+$circles
+[1] 0 1 4 2
+
+$crosses
+[1] 0 1 2
+
+$saltires
+[1] 0 1
+
+$quarters
+[1] 0 1 4
+
+$sunstars
+ [1]  1  0  6 22 14  3  4  5 15 10  7  2  9
+[14] 50
+
+$crescent
+[1] 0 1
+
+$triangle
+[1] 0 1
+
+$icon
+[1] 1 0
+
+$animate
+[1] 0 1
+
+$text
+[1] 0 1
+
+$topleft
+[1] black  red    green  blue   white 
+[6] orange gold  
+7 Levels: black blue gold ... white
+
+$botright
+[1] green  red    white  black  blue  
+[6] gold   orange brown 
+8 Levels: black blue brown gold ... white
+
+
+| Your dedication is inspiring!
+
+  |============================     |  84%
+
+| Since unique_vals is a list, you can use
+| what you've learned to determine the
+| length of each element of unique_vals
+| (i.e. the number of unique values for
+| each variable). Simplify the result, if
+| possible. Hint: Apply the length()
+| function to each element of unique_vals.
+
+> lapply(unique_vals, length)
+$name
+[1] 194
+
+$landmass
+[1] 6
+
+$zone
+[1] 4
+
+$area
+[1] 136
+
+$population
+[1] 48
+
+$language
+[1] 10
+
+$religion
+[1] 8
+
+$bars
+[1] 5
+
+$stripes
+[1] 12
+
+$colours
+[1] 8
+
+$red
+[1] 2
+
+$green
+[1] 2
+
+$blue
+[1] 2
+
+$gold
+[1] 2
+
+$white
+[1] 2
+
+$black
+[1] 2
+
+$orange
+[1] 2
+
+$mainhue
+[1] 8
+
+$circles
+[1] 4
+
+$crosses
+[1] 3
+
+$saltires
+[1] 2
+
+$quarters
+[1] 3
+
+$sunstars
+[1] 14
+
+$crescent
+[1] 2
+
+$triangle
+[1] 2
+
+$icon
+[1] 2
+
+$animate
+[1] 2
+
+$text
+[1] 2
+
+$topleft
+[1] 7
+
+$botright
+[1] 8
+
+
+| You almost had it, but not quite. Try
+| again. Or, type info() for more options.
+
+| Apply the length() function to each
+| element of the unique_vals list using
+| sapply(). Remember, no parentheses after
+| the name of the function you are
+| applying (i.e. length).
+
+> sapply(unique_vals, length)
+      name   landmass       zone 
+       194          6          4 
+      area population   language 
+       136         48         10 
+  religion       bars    stripes 
+         8          5         12 
+   colours        red      green 
+         8          2          2 
+      blue       gold      white 
+         2          2          2 
+     black     orange    mainhue 
+         2          2          8 
+   circles    crosses   saltires 
+         4          3          2 
+  quarters   sunstars   crescent 
+         3         14          2 
+  triangle       icon    animate 
+         2          2          2 
+      text    topleft   botright 
+         2          7          8 
+
+| Nice work!
+
+  |============================     |  86%
+
+| The fact that the elements of the
+| unique_vals list are all vectors of
+| *different* length poses a problem for
+| sapply(), since there's no obvious way
+| of simplifying the result.
+
+...
+
+  |=============================    |  88%
+
+| Use sapply() to apply the unique()
+| function to each column of the flags
+| dataset to see that you get the same
+| unsimplified list that you got from
+| lapply().
+
+> sapply(flags, unique)
+$name
+  [1] Afghanistan             
+  [2] Albania                 
+  [3] Algeria                 
+  [4] American-Samoa          
+  [5] Andorra                 
+  [6] Angola                  
+  [7] Anguilla                
+  [8] Antigua-Barbuda         
+  [9] Argentina               
+ [10] Argentine               
+ [11] Australia               
+ [12] Austria                 
+ [13] Bahamas                 
+ [14] Bahrain                 
+ [15] Bangladesh              
+ [16] Barbados                
+ [17] Belgium                 
+ [18] Belize                  
+ [19] Benin                   
+ [20] Bermuda                 
+ [21] Bhutan                  
+ [22] Bolivia                 
+ [23] Botswana                
+ [24] Brazil                  
+ [25] British-Virgin-Isles    
+ [26] Brunei                  
+ [27] Bulgaria                
+ [28] Burkina                 
+ [29] Burma                   
+ [30] Burundi                 
+ [31] Cameroon                
+ [32] Canada                  
+ [33] Cape-Verde-Islands      
+ [34] Cayman-Islands          
+ [35] Central-African-Republic
+ [36] Chad                    
+ [37] Chile                   
+ [38] China                   
+ [39] Colombia                
+ [40] Comorro-Islands         
+ [41] Congo                   
+ [42] Cook-Islands            
+ [43] Costa-Rica              
+ [44] Cuba                    
+ [45] Cyprus                  
+ [46] Czechoslovakia          
+ [47] Denmark                 
+ [48] Djibouti                
+ [49] Dominica                
+ [50] Dominican-Republic      
+ [51] Ecuador                 
+ [52] Egypt                   
+ [53] El-Salvador             
+ [54] Equatorial-Guinea       
+ [55] Ethiopia                
+ [56] Faeroes                 
+ [57] Falklands-Malvinas      
+ [58] Fiji                    
+ [59] Finland                 
+ [60] France                  
+ [61] French-Guiana           
+ [62] French-Polynesia        
+ [63] Gabon                   
+ [64] Gambia                  
+ [65] Germany-DDR             
+ [66] Germany-FRG             
+ [67] Ghana                   
+ [68] Gibraltar               
+ [69] Greece                  
+ [70] Greenland               
+ [71] Grenada                 
+ [72] Guam                    
+ [73] Guatemala               
+ [74] Guinea                  
+ [75] Guinea-Bissau           
+ [76] Guyana                  
+ [77] Haiti                   
+ [78] Honduras                
+ [79] Hong-Kong               
+ [80] Hungary                 
+ [81] Iceland                 
+ [82] India                   
+ [83] Indonesia               
+ [84] Iran                    
+ [85] Iraq                    
+ [86] Ireland                 
+ [87] Israel                  
+ [88] Italy                   
+ [89] Ivory-Coast             
+ [90] Jamaica                 
+ [91] Japan                   
+ [92] Jordan                  
+ [93] Kampuchea               
+ [94] Kenya                   
+ [95] Kiribati                
+ [96] Kuwait                  
+ [97] Laos                    
+ [98] Lebanon                 
+ [99] Lesotho                 
+[100] Liberia                 
+[101] Libya                   
+[102] Liechtenstein           
+[103] Luxembourg              
+[104] Malagasy                
+[105] Malawi                  
+[106] Malaysia                
+[107] Maldive-Islands         
+[108] Mali                    
+[109] Malta                   
+[110] Marianas                
+[111] Mauritania              
+[112] Mauritius               
+[113] Mexico                  
+[114] Micronesia              
+[115] Monaco                  
+[116] Mongolia                
+[117] Montserrat              
+[118] Morocco                 
+[119] Mozambique              
+[120] Nauru                   
+[121] Nepal                   
+[122] Netherlands             
+[123] Netherlands-Antilles    
+[124] New-Zealand             
+[125] Nicaragua               
+[126] Niger                   
+[127] Nigeria                 
+[128] Niue                    
+[129] North-Korea             
+[130] North-Yemen             
+[131] Norway                  
+[132] Oman                    
+[133] Pakistan                
+[134] Panama                  
+[135] Papua-New-Guinea        
+[136] Parguay                 
+[137] Peru                    
+[138] Philippines             
+[139] Poland                  
+[140] Portugal                
+[141] Puerto-Rico             
+[142] Qatar                   
+[143] Romania                 
+[144] Rwanda                  
+[145] San-Marino              
+[146] Sao-Tome                
+[147] Saudi-Arabia            
+[148] Senegal                 
+[149] Seychelles              
+[150] Sierra-Leone            
+[151] Singapore               
+[152] Soloman-Islands         
+[153] Somalia                 
+[154] South-Africa            
+[155] South-Korea             
+[156] South-Yemen             
+[157] Spain                   
+[158] Sri-Lanka               
+[159] St-Helena               
+[160] St-Kitts-Nevis          
+[161] St-Lucia                
+[162] St-Vincent              
+[163] Sudan                   
+[164] Surinam                 
+[165] Swaziland               
+[166] Sweden                  
+[167] Switzerland             
+[168] Syria                   
+[169] Taiwan                  
+[170] Tanzania                
+[171] Thailand                
+[172] Togo                    
+[173] Tonga                   
+[174] Trinidad-Tobago         
+[175] Tunisia                 
+[176] Turkey                  
+[177] Turks-Cocos-Islands     
+[178] Tuvalu                  
+[179] UAE                     
+[180] Uganda                  
+[181] UK                      
+[182] Uruguay                 
+[183] US-Virgin-Isles         
+[184] USA                     
+[185] USSR                    
+[186] Vanuatu                 
+[187] Vatican-City            
+[188] Venezuela               
+[189] Vietnam                 
+[190] Western-Samoa           
+[191] Yugoslavia              
+[192] Zaire                   
+[193] Zambia                  
+[194] Zimbabwe                
+194 Levels: Afghanistan Albania ... Zimbabwe
+
+$landmass
+[1] 5 3 4 6 1 2
+
+$zone
+[1] 1 3 2 4
+
+$area
+  [1]   648    29  2388     0  1247  2777
+  [7]  7690    84    19     1   143    31
+ [13]    23   113    47  1099   600  8512
+ [19]     6   111   274   678    28   474
+ [25]  9976     4   623  1284   757  9561
+ [31]  1139     2   342    51   115     9
+ [37]   128    43    22    49   284  1001
+ [43]    21  1222    12    18   337   547
+ [49]    91   268    10   108   249   239
+ [55]   132  2176   109   246    36   215
+ [61]   112    93   103  3268  1904  1648
+ [67]   435    70   301   323    11   372
+ [73]    98   181   583   236    30  1760
+ [79]     3   587   118   333  1240  1031
+ [85]  1973  1566   447   783   140    41
+ [91]  1267   925   121   195   324   212
+ [97]   804    76   463   407  1285   300
+[103]   313    92   237    26  2150   196
+[109]    72   637  1221    99   288   505
+[115]    66  2506    63    17   450   185
+[121]   945   514    57     5   164   781
+[127]   245   178  9363 22402    15   912
+[133]   256   905   753   391
+
+$population
+ [1]   16    3   20    0    7   28   15
+ [8]    8   90   10    1    6  119    9
+[15]   35    4   24    2   11 1008    5
+[22]   47   31   54   17   61   14  684
+[29]  157   39   57  118   13   77   12
+[36]   56   18   84   48   36   22   29
+[43]   38   49   45  231  274   60
+
+$language
+ [1] 10  6  8  1  2  4  3  5  7  9
+
+$religion
+[1] 2 6 1 0 5 3 4 7
+
+$bars
+[1] 0 2 3 1 5
+
+$stripes
+ [1]  3  0  2  1  5  9 11 14  4  6 13  7
+
+$colours
+[1] 5 3 2 8 6 4 7 1
+
+$red
+[1] 1 0
+
+$green
+[1] 1 0
+
+$blue
+[1] 0 1
+
+$gold
+[1] 1 0
+
+$white
+[1] 1 0
+
+$black
+[1] 1 0
+
+$orange
+[1] 0 1
+
+$mainhue
+[1] green  red    blue   gold   white 
+[6] orange black  brown 
+8 Levels: black blue brown gold ... white
+
+$circles
+[1] 0 1 4 2
+
+$crosses
+[1] 0 1 2
+
+$saltires
+[1] 0 1
+
+$quarters
+[1] 0 1 4
+
+$sunstars
+ [1]  1  0  6 22 14  3  4  5 15 10  7  2  9
+[14] 50
+
+$crescent
+[1] 0 1
+
+$triangle
+[1] 0 1
+
+$icon
+[1] 1 0
+
+$animate
+[1] 0 1
+
+$text
+[1] 0 1
+
+$topleft
+[1] black  red    green  blue   white 
+[6] orange gold  
+7 Levels: black blue gold ... white
+
+$botright
+[1] green  red    white  black  blue  
+[6] gold   orange brown 
+8 Levels: black blue brown gold ... white
+
+
+| Your dedication is inspiring!
+
+  |==============================   |  90%
+
+| Occasionally, you may need to apply a
+| function that is not yet defined, thus
+| requiring you to write your own. Writing
+| functions in R is beyond the scope of
+| this lesson, but let's look at a quick
+| example of how you might do so in the
+| context of loop functions.
+
+...
+
+  |==============================   |  92%
+
+| Pretend you are interested in only the
+| second item from each element of the
+| unique_vals list that you just created.
+| Since each element of the unique_vals
+| list is a vector and we're not aware of
+| any built-in function in R that returns
+| the second element of a vector, we will
+| construct our own function.
+
+...
+
+  |===============================  |  94%
+
+| lapply(unique_vals, function(elem)
+| elem[2]) will return a list containing
+| the second item from each element of the
+| unique_vals list. Note that our function
+| takes one argument, elem, which is just
+| a 'dummy variable' that takes on the
+| value of each element of unique_vals, in
+| turn.
+
+> 
+> lapply(unique_vals, function(elem) elem[2])
+$name
+[1] Albania
+194 Levels: Afghanistan Albania ... Zimbabwe
+
+$landmass
+[1] 3
+
+$zone
+[1] 3
+
+$area
+[1] 29
+
+$population
+[1] 3
+
+$language
+[1] 6
+
+$religion
+[1] 6
+
+$bars
+[1] 2
+
+$stripes
+[1] 0
+
+$colours
+[1] 3
+
+$red
+[1] 0
+
+$green
+[1] 0
+
+$blue
+[1] 1
+
+$gold
+[1] 0
+
+$white
+[1] 0
+
+$black
+[1] 0
+
+$orange
+[1] 1
+
+$mainhue
+[1] red
+8 Levels: black blue brown gold ... white
+
+$circles
+[1] 1
+
+$crosses
+[1] 1
+
+$saltires
+[1] 1
+
+$quarters
+[1] 1
+
+$sunstars
+[1] 0
+
+$crescent
+[1] 1
+
+$triangle
+[1] 1
+
+$icon
+[1] 0
+
+$animate
+[1] 1
+
+$text
+[1] 1
+
+$topleft
+[1] red
+7 Levels: black blue gold ... white
+
+$botright
+[1] red
+8 Levels: black blue brown gold ... white
+
+
+| Keep working like that and you'll get
+| there!
+
+  |================================ |  96%
+
+| The only difference between previous
+| examples and this one is that we are
+| defining and using our own function
+| right in the call to lapply(). Our
+| function has no name and disappears as
+| soon as lapply() is done using it.
+| So-called 'anonymous functions' can be
+| very useful when one of R's built-in
+| functions isn't an option.
+
+...
+
+  |================================ |  98%
+
+| In this lesson, you learned how to use
+| the powerful lapply() and sapply()
+| functions to apply an operation over the
+| elements of a list. In the next lesson,
+| we'll take a look at some close
+| relatives of lapply() and sapply().
+
+...
+
+  |=================================| 100%
+
+| Would you like to inform someone about
+| your successful completion of this
+| lesson?
+
+1: No
+2: Yes
+
+Selection: 2
+| What is your full name?
+Halli Goodman
+| What is the email address of the person
+| you'd like to notify?
+mike.martin@senecacollege.ca
+
+Does everything look good?
+
+Your name: Halli Goodman
+Send to: mike.martin@senecacollege.ca
+
+1: Yes
+2: No
+
+Selection: 1
+
+#########################################
+
+I just tried to create a new email with the following info:
+
+To: mike.martin@senecacollege.ca
+Subject: Halli Goodman just completed R Programming - lapply and sapply
+Body: <empty>
+
+If it didn't work, you can send the same email manually.
+
+#########################################
+
+
+| That's a job well done!
+
+| You've reached the end of this lesson!
+| Returning to the main menu...
